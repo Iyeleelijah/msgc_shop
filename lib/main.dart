@@ -13,7 +13,6 @@ class MsgcApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'MSGC SHOP',
       theme: ThemeData(
         cupertinoOverrideTheme: const CupertinoThemeData(
           primaryColor: CupertinoColors.activeBlue,
